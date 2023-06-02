@@ -1,0 +1,31 @@
+html,
+body{
+    min-height: 100svh;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button:hover{
+    border-bottom: 2px solid black;
+}
+
+body{
+    background-color: greenyellow;
+}
+
+.css-class{
+    background-color: aquamarine;
+}
