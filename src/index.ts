@@ -2,8 +2,9 @@ import renderHeader from "./navbar";
 import renderHome from "./home";
 import renderMenu from "./menu";
 import renderAbout from "./about";
-import "./style.module.css"
-import * as css from "./style.module.css"
+import "./style.module.css";
+import * as style from "./style.module.css";
+import backgroundImg from "./../assets/restaurant_bg.jpg";
 
 let header = renderHeader();
 let content = document.querySelector('.content');
@@ -15,5 +16,8 @@ function wireButtons(){
     buttons[1].addEventListener('click', () => renderMenu())
     buttons[2].addEventListener('click', () => renderAbout())
 }
+
+console.log(style);
+
 
 wireButtons();
