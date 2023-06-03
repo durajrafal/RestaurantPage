@@ -4,7 +4,6 @@ import renderMenu from "./menu";
 import renderAbout from "./about";
 import "./style.module.css";
 import * as style from "./style.module.css";
-import backgroundImg from "./../assets/restaurant_bg.jpg";
 
 let header = renderHeader();
 let content = document.querySelector('.content');

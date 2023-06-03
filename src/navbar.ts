@@ -1,6 +1,9 @@
+import style from "./style.module.css"
+
 function renderHeader(){
     let header = document.createElement('header');
     let navbar = document.createElement('nav');
+    navbar.classList.add(style.bgSemiTransparentWhite);
 
     navbar.appendChild(createButton("Home"));
     navbar.appendChild(createButton("Menu"));
