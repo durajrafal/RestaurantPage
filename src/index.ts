@@ -1,13 +1,14 @@
-import renderHeader from "./navbar";
-import renderHome from "./home";
-import renderMenu from "./menu";
-import renderAbout from "./about";
+import renderHeader from "./header";
+import renderHome from "./home/home";
+import renderMenu from "./menu/menu";
+import renderAbout from "./about/about";
 import "./style.module.css";
 import * as style from "./style.module.css";
 
 let header = renderHeader();
-let content = document.querySelector('.content');
-content?.appendChild(header);
+let body = document.querySelector('body');
+body?.appendChild(header);
+
 
 function wireButtons(){
     const buttons = document.querySelectorAll('button');
@@ -18,5 +19,5 @@ function wireButtons(){
 
 console.log(style);
 
-
 wireButtons();
+renderHome();
