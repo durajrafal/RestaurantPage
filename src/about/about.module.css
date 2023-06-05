@@ -1,0 +1,4 @@
+.img{
+    width: clamp(500px, 100%, 800px);
+    border-radius: 0%;
+}
