@@ -1,0 +1,24 @@
+.menuList{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(15rem, 100%), 1fr));
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.menuItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menuItem p{
+    text-align: center;
+}
+
+.menuPrice{
+    align-self: flex-end;
+    font-weight: 700;
+}

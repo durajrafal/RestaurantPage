@@ -20,4 +20,4 @@ function wireButtons(){
 console.log(style);
 
 wireButtons();
-renderHome();
+renderMenu();
